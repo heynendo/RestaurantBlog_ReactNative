@@ -40,7 +40,7 @@ export default function ArticleScreen() {
           source={{ html: article.content }}
           tagsStyles={{
             a: { color: colors.primary, textDecorationLine: 'none' },
-            span: { marginVertical: spacing.md, lineHeight: 50 },
+            span: { marginVertical: spacing.md},
             img: { borderRadius: 4, marginBottom: spacing.xs, marginTop: spacing.md },
           }}
         />
