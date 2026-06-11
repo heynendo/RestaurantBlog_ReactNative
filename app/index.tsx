@@ -53,10 +53,10 @@ export default function NewsfeedScreen() {
   const filteredArticles = articles.filter((article) => {
     if (activeFilter === 'All Articles' || 
         article.topics.includes(activeFilter)){
-      if (article.title.includes(userInputs)) return true;
-      if (article.topics.includes(userInputs)) return true;
-      if (article.regions.includes(userInputs)) return true;
-      if (article.tagline.includes(userInputs)) return true;
+      if (article.title.includes(userInputs) ||
+          article.topics.includes(userInputs) ||
+          article.regions.includes(userInputs) ||
+          article.tagline.includes(userInputs)) return true;
       /*for(let i=0; i<article.topics.length; i++){
         if(article.topics[i].includes(userInputs)) return true;
       }*/
