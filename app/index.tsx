@@ -1,11 +1,11 @@
-import { View, ActivityIndicator, ScrollView } from 'react-native';
-import { useState } from 'react';
 import { useArticles } from '@/api/useArticles';
+import ArticleCard from '@/components/ArticleCard';
+import ArticleFilters, { Filter } from '@/components/ArticleFilters';
+import { styles } from '@/styles/indexStyles';
+import { colors, Heading1, spacing, AppText as Text } from '@/styles/theme';
+import { useState } from 'react';
+import { ActivityIndicator, ScrollView, View } from 'react-native';
 import Animated, { FadeIn, FadeOut, LinearTransition } from 'react-native-reanimated';
-import { AppText as Text, colors, Heading1, spacing } from '../styles/theme';
-import { styles } from '@/styles/indexStyles'
-import ArticleCard from './components/ArticleCard';
-import ArticleFilters, { Filter } from './components/ArticleFilters';
 
 export default function NewsfeedScreen() {
 

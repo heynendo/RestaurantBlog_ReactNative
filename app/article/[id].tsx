@@ -1,12 +1,12 @@
-import { View, useWindowDimensions, ImageBackground } from 'react-native';
-import { router, useLocalSearchParams } from 'expo-router';
-import RenderHtml from 'react-native-render-html';
-import Animated, { FadeIn } from 'react-native-reanimated';
-import { AppText as Text, colors, spacing } from '@/styles/theme';
-import { styles } from '@/styles/articleStyles';
-import AppButton from '../components/ui/AppButton';
-import ArrowIcon from '../components/ui/ArrowIcon';
 import { Article } from '@/api/api';
+import AppButton from '@/components/ui/AppButton';
+import ArrowIcon from '@/components/ui/ArrowIcon';
+import { styles } from '@/styles/articleStyles';
+import { AppText as Text, colors, spacing } from '@/styles/theme';
+import { router, useLocalSearchParams } from 'expo-router';
+import { ImageBackground, View, useWindowDimensions } from 'react-native';
+import Animated, { FadeIn } from 'react-native-reanimated';
+import RenderHtml from 'react-native-render-html';
 
 //TODO: improve HTML article content styling
 
