@@ -1,4 +1,4 @@
-# App Dev Challenge (Spring 2026) - Lettuce Entertain You
+# Restaurant Blog - React Native App Dev Challenge
 by Donovan Heynen
 
 React Native mobile app for Lettuce Entertain You that displays recent blog posts. Includes basic filtering by topic, animated list transitions, and HTML article rendering.
@@ -16,8 +16,8 @@ React Native mobile app for Lettuce Entertain You that displays recent blog post
 ## Setup
 
 ```bash
-git clone https://github.com/heynendo/LettuceEntertainYou_AppDevChallenge.git
-cd LettuceEntertainYou_AppDevChallenge
+git clone https://github.com/heynendo/RestaurantBlog_ReactNative.git
+cd RestaurantBlog_ReactNative
 npm install
 npx expo start
 ```
